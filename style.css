@@ -284,7 +284,7 @@ padding-right: 150px;
         padding: 120px 0px;
 }
 
-.whattext{
+.h2text{
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
@@ -296,6 +296,7 @@ padding-right: 150px;
     flex-wrap: wrap;
     padding: 0 40px;
 }
+
 ul {
     list-style: none;
 }
@@ -334,6 +335,33 @@ ul {
 #what img{
     vertical-align: middle;
 }
+
+.container-boost{
+    max-width: 1440px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#boost{background: #E5E5E5;
+    margin: 0 auto;
+    padding: 120px 0px;
+
+}
+
+.super2flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+
+#boost ul li {
+    flex: 1 1 30%;
+    width: 30%;
+}
+
 
 
 /* FOOTER */
