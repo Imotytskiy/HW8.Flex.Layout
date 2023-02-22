@@ -307,6 +307,7 @@ ul {
     text-align: center;
 }
 
+
 .title-what-card{
     
     font-weight: 600;
@@ -336,6 +337,23 @@ ul {
     vertical-align: middle;
 }
 
+.superboosterflex{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+    margin:0 150px;
+}
+
+.title-booster-card{
+    
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    display: block;
+    margin: 40px 0 17px;
+    
+}
+
 .container-boost{
     max-width: 1440px;
     margin: 0px;
@@ -348,18 +366,56 @@ ul {
 
 }
 
-.super2flex{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
+.learn{
+    color: #000;
+    text-decoration: underline;
+    line-height: 3.5;
+}
+
+#boost ul li {
+    flex-basis: auto;
 }
 
 
 
-#boost ul li {
-    flex: 1 1 30%;
-    width: 30%;
+/* chief article */
+.chief-article{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        padding: 110px 0 105px;
+
+    }
+.chief-text{
+        position: relative;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 15px 0 0;
+    }
+.chief{
+    font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+line-height: 3.0;
+}
+.photo{
+        position: relative;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 15px 0 0;
+    }
+.background{
+    background-color: #c9e8f2;
+}
+
+.text-chief{
+font-family: 'Graphik LC TT',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
 }
 
 
