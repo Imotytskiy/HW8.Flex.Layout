@@ -90,7 +90,7 @@ html{
 }
 
 
-#header .user-menu {
+.user-menu {
     display: flex;
     direction: row;
     margin: -6px 0 0;
@@ -109,7 +109,7 @@ html{
 }
 
 
-#header .user-menu li {
+.user-menu li {
     margin: 0 0 0 10px;
 }
 
