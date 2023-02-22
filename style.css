@@ -34,7 +34,7 @@ html{
 }
 
 
-#header .logo {
+.logo {
     background: url(/images/Logo_lokalise.png);
     background-size: contain;
     width: 130px;
@@ -44,7 +44,7 @@ html{
 
 }
 
-#header .back {
+.back {
     position: absolute;
     display: none;
     top: 0;
@@ -60,7 +60,7 @@ html{
     padding: 20px 24px;
 }
 
-#header .container {
+.container {
     max-width: none;
 }
 
