@@ -12,7 +12,7 @@
 }
 /* Header with nav and buttons Login,Try-free */
 html{
-    font-family: "GraphikLCG-Regular","Roboto",sans-serif;
+    font-family: "GraphikLCG-Regular",sans-serif;
 }
 
 .container {
@@ -204,7 +204,7 @@ h1 {
 }
 
 .section-description {
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
 }
 
