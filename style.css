@@ -2,7 +2,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "GraphikLCG-Regular";
+    src: url(./fonts/GraphikLCG-Regular.ttf);
+}
+@font-face {
+    font-family: "GraphikLCG-Semibold";
+    src: url(./fonts/GraphikLCG-Semibold.ttf);
+}
 /* Header with nav and buttons Login,Try-free */
+html{
+    font-family: "GraphikLCG-Regular";
+}
 
 .container {
     max-width: 1440px;
