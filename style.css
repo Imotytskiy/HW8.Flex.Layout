@@ -72,13 +72,6 @@ html{
     justify-content: space-between;
 }
 
-#navigation {
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
 #navigation ul.menu {
     display: flex;
     margin: 0;
