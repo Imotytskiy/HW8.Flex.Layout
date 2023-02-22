@@ -12,7 +12,7 @@
 }
 /* Header with nav and buttons Login,Try-free */
 html{
-    font-family: "GraphikLCG-Regular";
+    font-family: "GraphikLCG-Regular","Roboto",sans-serif;
 }
 
 .container {
@@ -186,7 +186,7 @@ html{
 }
 
 h1 {
-    font-family: 'Graphik LC TT';
+    font-family: 'GraphikLCG-Semibold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 65px;
@@ -195,7 +195,7 @@ h1 {
 }
 
 .note {
-    font-family: 'Graphik LC TT', sans-serif;
+    font-family: 'GraphikLCG-Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -440,7 +440,7 @@ ul {
 }
 
 .text-ch {
-    font-family: 'Graphik LC TT', sans-serif;
+    font-family: 'GraphikLCG-Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -472,7 +472,7 @@ padding-right: 90px;
     background: #FFFFFF;
 }
 .text-h2-bird{
-    font-family: 'Graphik LC TT',sans-serif;
+    font-family: 'GraphikLCG-Semibold',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 65px;
@@ -481,7 +481,7 @@ padding-right: 90px;
 }
 
 .justtext{
-    font-family: 'Graphik LC TT',sans-serif;
+    font-family: 'GraphikLCG-Regular',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -505,7 +505,7 @@ padding-right: 90px;
     padding-bottom: 100px;
 }
 .text-h2-orange{
-    font-family: 'Graphik LC TT',sans-serif;
+    font-family: 'Gra',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 65px;
@@ -514,7 +514,7 @@ padding-right: 90px;
 }
 
 .orangetext{
-    font-family: 'Graphik LC TT',sans-serif;
+    font-family: 'GraphikLCG-Regular',sans-serif;
     font-style:normal;
     padding-bottom: 45px;
     font-weight: 400;
