@@ -34,7 +34,7 @@ html{
 }
 
 
-.logo {
+#header .logo {
     background: url(/images/Logo_lokalise.png);
     background-size: contain;
     width: 130px;
@@ -44,7 +44,7 @@ html{
 
 }
 
-.back {
+#header .back {
     position: absolute;
     display: none;
     top: 0;
@@ -60,8 +60,16 @@ html{
     padding: 20px 24px;
 }
 
-.container {
+#header .container {
     max-width: none;
+}
+
+
+#navigation {
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navigation {
@@ -90,7 +98,7 @@ html{
 }
 
 
-.user-menu {
+#header .user-menu {
     display: flex;
     direction: row;
     margin: -6px 0 0;
@@ -109,7 +117,7 @@ html{
 }
 
 
-.user-menu li {
+#header .user-menu li {
     margin: 0 0 0 10px;
 }
 
