@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     /* margin: 0px; */
-  }
+}
 
 /* Header with nav and buttons Login,Try-free */
 
@@ -49,10 +49,13 @@
     z-index: 999;
     padding: 20px 24px;
 }
+
 #header .container {
     max-width: none;
 }
-#filters-navigation, #navigation {
+
+#filters-navigation,
+#navigation {
     font-size: 15px;
     line-height: 20px;
     display: flex;
@@ -73,14 +76,15 @@
     color: #000;
 }
 
-.change-color{
+.change-color {
     text-decoration: none;
     color: #000;
-    
+
 }
-.change-color:hover{
+
+.change-color:hover {
     transition: all .3s ease;
-    color:#ee4415;
+    color: #ee4415;
 }
 
 
@@ -97,8 +101,8 @@
     margin: 0 42px 0 0;
 }
 
-#navigation ul.menu li:hover{
-    color:#FF6336;
+#navigation ul.menu li:hover {
+    color: #FF6336;
 }
 
 
@@ -110,7 +114,7 @@
 
 .btn {
     display: inline-block;
-    border: 1px solid rgba(0,0,0,.5);
+    border: 1px solid rgba(0, 0, 0, .5);
     font-size: 16px;
     font-weight: 600;
     height: 45px;
@@ -120,12 +124,14 @@
     color: #000;
     min-width: 120px;
     text-decoration: none;
-    
+
 }
+
 .btn:hover {
     transition: all .3s ease;
-    border: 2px solid rgba(0,0,0,.5);;
-  }
+    border: 2px solid rgba(0, 0, 0, .5);
+    ;
+}
 
 .btn-primary {
     display: inline-block;
@@ -136,22 +142,23 @@
     padding: 0 20px;
     line-height: 45px;
     text-align: center;
-    color: #fff!important;
+    color: #fff !important;
     text-decoration: none;
     min-width: 120px;
     border: none;
-    
+
 }
+
 .btn-primary:hover {
     transition: all .3s ease;
-    background:#ee4415;
-  }
+    background: #ee4415;
+}
 
 
 /* first section after nav  -main- */
 
 #main {
-    padding:144px 0px 0px 0px;
+    padding: 144px 0px 0px 0px;
 }
 
 .index-picture {
@@ -159,6 +166,7 @@
     direction: row;
     justify-content: center;
 }
+
 .index {
     padding: 0px 0px 40px 0px;
     margin: 0 0 147px;
@@ -167,7 +175,7 @@
     max-width: none;
 }
 
-h1{
+h1 {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
@@ -176,33 +184,35 @@ h1{
     text-align: left;
 }
 
-.note{
-    font-family: 'Graphik LC TT',sans-serif;
+.note {
+    font-family: 'Graphik LC TT', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     text-align: left;
 }
-.section-description{
+
+.section-description {
     font-size: 25px;
     text-align: left;
 }
-.moreflex{
+
+.moreflex {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     gap: 20px;
     padding: 50px 0px 30px 0px;
 }
 
-.btn-big{
+.btn-big {
     height: 60px;
     min-width: 160px;
     line-height: 60px;
 }
 
 
-.first_picture{
+.first_picture {
     padding-left: 30px;
 }
 
@@ -223,74 +233,78 @@ h1{
 }
 
 
-.icons{ 
-        padding: 0px 51px 0px 51px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.icons {
+    padding: 0px 51px 0px 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
-    /* first, second, third, forth block */
+/* first, second, third, forth block */
 .block {
-        display: flex;
-        align-items: center;
-        margin: 100px 0 0 0;
-        padding: 0;
-    }
-.correct{
+    display: flex;
+    align-items: center;
+    margin: 100px 0 0 0;
+    padding: 0;
+}
+
+.correct {
     padding: 0 11% 10px 0;
 }
 
-.reverse{
+.reverse {
     flex-direction: row-reverse;
 }
-.correct-r{
+
+.correct-r {
     padding: 0 0 10px 11%;
 }
-h2{
+
+h2 {
     font-size: 50px;
 }
 
-.texttblock{
-    margin: 0px 50px 6px 0px ;
+.texttblock {
+    margin: 0px 50px 6px 0px;
 
 }
-.first-block-img{
+
+.first-block-img {
     max-width: 100%;
     height: auto;
 }
 
-.section-description-r .section-block-heading-r{
-font-size: 25px;
-padding-right: 150px;
+.section-description-r .section-block-heading-r {
+    font-size: 25px;
+    padding-right: 150px;
 }
 
-.task-design{
-    color:#000;
+.task-design {
+    color: #000;
 }
 
 
-.startnow{
+.startnow {
     font-size: 20px;
     text-decoration: none;
     color: #000;
 }
 
-#what{
-        background: #FFF8E4;
-        margin: 160px 0px 0px 0px;
-        padding: 120px 0px;
+#what {
+    background: #FFF8E4;
+    margin: 160px 0px 0px 0px;
+    padding: 120px 0px;
 }
 
-.h2text{
+.h2text {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
 }
 
-.superflex{
+.superflex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -308,65 +322,66 @@ ul {
 }
 
 
-.title-what-card{
-    
+.title-what-card {
+
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
     display: block;
     margin: 0 0 17px;
-    
+
 }
 
-.discrip-what-card{
+.discrip-what-card {
     font-size: 18px;
     line-height: 25px;
     margin: 0;
-    
+
 }
 
 .visual {
     height: 160px;
     line-height: 160px;
     margin: 0 0 7px;
-    
+
 }
 
 
-#what img{
+#what img {
     vertical-align: middle;
 }
 
-.superboosterflex{
+.superboosterflex {
     display: flex;
     justify-content: space-around;
     padding: 0 40px;
-    margin:0 150px;
+    margin: 0 150px;
 }
 
-.title-booster-card{
-    
+.title-booster-card {
+
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
     display: block;
     margin: 40px 0 17px;
-    
+
 }
 
-.container-boost{
+.container-boost {
     max-width: 1440px;
     margin: 0px;
     padding: 0px;
 }
 
-#boost{background: #E5E5E5;
+#boost {
+    background: #E5E5E5;
     margin: 0 auto;
     padding: 120px 0px;
 
 }
 
-.learn{
+.learn {
     color: #000;
     text-decoration: underline;
     line-height: 3.5;
@@ -379,84 +394,177 @@ ul {
 
 
 /* chief article */
-.chief-article{
-        position: relative;
-        display: inline-flex;
-        justify-content: center;
-        padding: 110px 0 105px;
+.chief-article {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    padding: 110px 0 105px;
 
-    }
-.chief-text{
-        position: relative;
-        font-size: 30px;
-        line-height: 40px;
-        padding: 15px 0 0;
-    }
-.chief{
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-line-height: 3.0;
 }
-.photo{
-        position: relative;
-        font-size: 30px;
-        line-height: 40px;
-        padding: 15px 0 0;
-    }
-.background{
+
+.chief-text {
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 15px 0 0;
+}
+
+.chief {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    line-height: 3.0;
+}
+
+.photo {
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 15px 0 0;
+}
+
+.background {
     background-color: #c9e8f2;
 }
 
-.text-chief{
-font-family: 'Graphik LC TT',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
+.text-ch {
+    font-family: 'Graphik LC TT', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
 }
 
+/* chief */
+
+#cake{
+    background: #dabc98;
+}
+.flexcake{
+    display: inline-flex;
+    gap:20px;
+}
+.text-chief{
+margin: 0 0 50px;
+font-size: 35px;
+line-height: 50px;
+font-weight: 600;
+border-right: 1px solid #000;
+margin-top: 45px;
+margin-left: 80px;
+padding-right: 90px;
+}
+/* bird */
+
+.birds{
+    background: #FFFFFF;
+}
+.text-h2-bird{
+    font-family: 'Graphik LC TT',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.justtext{
+    font-family: 'Graphik LC TT',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-big-bird{
+    display: block;
+    position: relative;
+    width: 193px;
+    height: 60px;
+    margin: 40px auto 100px auto;
+    padding-top: 9px;
+    font-size: 16px;
+}
+/* ORANGE */
+#orange{
+    background: #FF9C7D;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.text-h2-orange{
+    font-family: 'Graphik LC TT',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.orangetext{
+    font-family: 'Graphik LC TT',sans-serif;
+    font-style: normal;
+    padding-bottom: 45px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-big-orange{
+    display: block;
+    background:#000;
+    position: relative;
+    width: 193px;
+    height: 60px;
+    margin: 0px auto 85px auto;
+    padding-top: 9px;
+    font-size: 16px;
+}
 
 
 /* FOOTER */
 
 #footer {
     background: #eee;
-    padding: 92px 0 48px;
+    padding-top: 90px;
 }
 
-
-
- .columns .col:first-child {
+.columns .col:first-child {
     flex: 0 0 370px;
     width: 370px;
     padding: 0 70px 0 0;
     margin: 0 70px 0 0;
     position: relative;
 }
- .title {
+
+.title {
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
     display: block;
     margin: 0 0 28px;
 }
- .frame {
+
+.frame {
     max-width: 300px;
     margin: 0 0 31px;
 }
- .foot-logo {
+
+.foot-logo {
     margin: 0 0 6px;
     height: 32px;
     width: 80px;
 }
- .case {
+
+.case {
     font-size: 20px;
     line-height: 30px;
     margin: 0 0 20px;
 }
+
 .more {
     font-size: 20px;
     line-height: 26px;
@@ -468,7 +576,7 @@ line-height: 40px;
     padding-right: 28px;
 }
 
- .columns .col:last-child {
+.columns .col:last-child {
     flex: 1 1 100%;
     flex-grow: 1;
     flex-shrink: 1;
@@ -476,66 +584,75 @@ line-height: 40px;
     width: 100%;
 }
 
- .footer-nav ul {
+.footer-nav ul {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     line-height: 25px;
 }
+
 ul {
     list-style: none;
 }
- .footer-nav ul li {
+
+.footer-nav ul li {
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
     width: 22%;
 }
- .footer-nav ul li ul {
+
+.footer-nav ul li ul {
     padding: 21px 0 0;
     display: block;
     font-size: 15px;
     line-height: 15px;
 }
- .footer-nav ul li ul li {
+
+.footer-nav ul li ul li {
     width: 100%;
     font-size: 15px;
     line-height: 15px;
     margin: 0 0 15px;
     font-weight: 400;
 }
- .columns {
+
+.columns {
     display: flex;
     padding: 0 0 94px;
     margin: 0 0 48px;
     border-bottom: 1px solid #000;
 }
- .footer-nav a {
+
+.footer-nav a {
     color: #000;
     text-decoration: none;
 }
 
- .holder {
+.holder {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 76px 0 0;
 }
 
- .logo-holder {
+.logo-holder {
     display: flex;
     align-items: center;
 }
- .logo {
+
+.logo {
     display: block;
     margin: 0 20px 0 0;
 }
- .slogan {
+
+.slogan {
     font-size: 12px;
     line-height: 15px;
     font-style: normal;
 }
- .copyright {
+
+.copyright {
     font-size: 12px;
     line-height: 15px;
 }
