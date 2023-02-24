@@ -450,6 +450,7 @@ ul {
 .flexcake{
     display: inline-flex;
     gap:20px;
+    align-items:center;
 }
 .text-chief{
 margin: 0 0 50px;
