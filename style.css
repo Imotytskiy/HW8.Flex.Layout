@@ -35,7 +35,7 @@ html{
 
 
 #header .logo {
-    background: url(/images/Logo_lokalise.png);
+    background: url(./images/Logo_lokalise.png);
     background-size: contain;
     width: 130px;
     height: 28px;
